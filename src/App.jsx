@@ -1,9 +1,20 @@
-import React from 'react'
+import "./index.css";
+import Navbar from "./components/Navbar";
+import Hero from "./pages/Hero";
+import Stem from "./pages/Stem";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <div className="h-screen w-full">
+        <Navbar />
+        <Hero />
+      </div>
+      <Stem />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;

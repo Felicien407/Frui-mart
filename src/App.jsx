@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
@@ -18,3 +19,14 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>App</div>
+  )
+}
+
+export default App
+>>>>>>> 3003a31 (Initial commit)
